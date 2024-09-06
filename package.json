@@ -1,6 +1,8 @@
 {
   "name": "expo-trpc-starter",
   "main": "expo-router/entry",
+  "license": "MIT",
+  "author": "jlsnow301",
   "version": "1.0.0",
   "scripts": {
     "start": "expo start",
