@@ -1,6 +1,19 @@
-# Welcome to your Expo app 👋
+# Expo with tRPC & Drizzle starter
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is an [Expo](https://expo.dev) project built to bring T3 to purely mobile apps- it's [T3 turbo](https://github.com/t3-oss/create-t3-turbo) without the NextJS, but by no means a replacement for their implementation. Feel free to clone this repo and build your app using what's here. What you'll find in this repo:
+
+- tRPC wired in via [API Routes](https://docs.expo.dev/router/reference/api-routes/)
+- Drizzle (preconfigured for postgres, change as you see fit)
+- Eslint & Prettier with some very opinionated rules
+- CI for linting
+- Very basic auth setup
+- A good amount of documentation, see below
+
+## Guides
+
+- [frontend](https://github.com/BlueBridge-Alliance/BlueBridge-Alliance-App/blob/main/.github/guides/frontend.md)
+- [backend](https://github.com/BlueBridge-Alliance/BlueBridge-Alliance-App/blob/main/server/guide.md)
+- [database](https://github.com/BlueBridge-Alliance/BlueBridge-Alliance-App/blob/main/db/guide.md)
 
 ## Get started
 
