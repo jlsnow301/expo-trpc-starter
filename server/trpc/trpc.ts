@@ -1,9 +1,9 @@
 import { initTRPC, TRPCError } from "@trpc/server";
-import { FetchCreateContextFnOptions } from "@trpc/server/adapters/fetch";
+import type { FetchCreateContextFnOptions } from "@trpc/server/adapters/fetch";
 import { eq } from "drizzle-orm";
 
 import { db } from "@/db";
-import { Session, sessionTable } from "@/db/schema";
+import { type Session, sessionTable } from "@/db/schema";
 import { isSessionExpired } from "@/utils/session";
 
 /**

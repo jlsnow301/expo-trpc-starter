@@ -10,7 +10,7 @@ import { httpBatchLink } from "@trpc/client";
 import { useFonts } from "expo-font";
 import { Stack } from "expo-router";
 import * as SplashScreen from "expo-splash-screen";
-import { PropsWithChildren, useEffect, useState } from "react";
+import { type PropsWithChildren, useEffect, useState } from "react";
 
 import { useColorScheme } from "@/hooks/useColorScheme";
 import { api } from "@/utils/api";

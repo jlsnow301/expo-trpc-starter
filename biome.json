@@ -1,0 +1,45 @@
+{
+  "$schema": "https://biomejs.dev/schemas/1.9.3/schema.json",
+  "vcs": { "enabled": false, "clientKind": "git", "useIgnoreFile": false },
+  "files": { "ignoreUnknown": false, "ignore": [] },
+  "formatter": { "enabled": true, "indentStyle": "space" },
+  "organizeImports": { "enabled": true },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": true,
+      "correctness": {
+        "noUnusedImports": "error",
+        "noUnusedVariables": "warn",
+        "useExhaustiveDependencies": "off"
+      },
+      "style": {
+        "useBlockStatements": "off",
+        "noNonNullAssertion": "warn",
+        "useSelfClosingElements": {
+          "level": "warn",
+          "fix": "safe"
+        },
+        "noUnusedTemplateLiteral": {
+          "level": "warn",
+          "fix": "safe"
+        }
+      },
+      "suspicious": {
+        "noExplicitAny": "warn",
+        "noArrayIndexKey": "warn"
+      }
+    },
+    "ignore": [
+      "**/.expo",
+      "**/dist",
+      "**/expo-env.d.ts",
+      ".github/PULL_REQUEST_TEMPLATE.md"
+    ]
+  },
+  "javascript": {
+    "formatter": { "quoteStyle": "double" },
+    "globals": ["__DEV__", "shared-node-browser"]
+  },
+  "overrides": [{ "include": ["*.web.*"] }]
+}

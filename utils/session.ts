@@ -1,7 +1,7 @@
 import { router } from "expo-router";
 
 import { SESSION_EXPIRY } from "@/constants/session";
-import { Session } from "@/db/schema";
+import type { Session } from "@/db/schema";
 
 /**
  * ### Session Expiry
