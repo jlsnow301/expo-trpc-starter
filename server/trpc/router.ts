@@ -1,3 +1,4 @@
+import { exampleRouter } from "./routers/example";
 import { sessionRouter } from "./routers/session";
 import { router } from "./trpc";
 
@@ -24,6 +25,7 @@ import { router } from "./trpc";
  * ```
  */
 export const appRouter = router({
+  example: exampleRouter,
   session: sessionRouter,
   // Any other routers you want to add
 });

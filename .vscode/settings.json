@@ -9,5 +9,11 @@
   },
   "editor.rulers": [80],
   "editor.defaultFormatter": "biomejs.biome",
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "[javascript][typescript][javascriptreact][typescriptreact][css][json][jsonc]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[yaml][markdown][html][scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
