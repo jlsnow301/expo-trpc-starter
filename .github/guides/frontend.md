@@ -10,9 +10,8 @@ It uses the file router in /app, so navigation is done with the url and associat
 
 1. Install the recommended extensions:
 
-- Prettier
-- ESLint
-- EditorConfig
+- [Prettier](https://prettier.io/docs/en/editors)
+- [Biomejs](https://biomejs.dev/guides/editors/first-party-extensions/)
 
 2. Install dependencies:
 
@@ -25,7 +24,7 @@ You'll need to install deps any time there is a change to the package.json file.
 3. Start the app
 
 ```bash
-npm run start
+npx expo start
 ```
 
 4. Navigate to the app folder to make changes to the UI.
